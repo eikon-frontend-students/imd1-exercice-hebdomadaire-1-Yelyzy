@@ -2,8 +2,60 @@
 
 body {
   font-family: "Silkscreen", monospace;
+  display: flex;
+  width: 1512px;
+  padding: 100px 962px 457px 90px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 7px;
 }
-
+div {
+  max-width: 460px;
+  max-height: 158px;
+  border-top: 3px solid black;
+  border-left: 3px solid black;
+}
+h1 {
+  max-width: 210px;
+  max-height: 77px;
+  margin: 0px;
+  color: #000;
+  font-family: Silkscreen;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-left: 23px;
+  padding-right: 227px;
+  padding-top: 7px;
+}
 img {
   display: block;
+  width: 460px;
+  height: 215px;
+  padding-top: 7px;
+}
+p {
+  width: 402px;
+  height: 60px;
+  flex-shrink: 0;
+  color: #000;
+  font-family: Silkscreen;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-left: 28px;
+  padding-right: 30px;
+  padding-bottom: 17px;
+  margin: 0px;
+}
+a {
+  color: #000;
+  font-family: Silkscreen;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration-line: underline;
 }
